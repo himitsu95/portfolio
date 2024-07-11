@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Haruka</title>
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./logout.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul id="nav-list">
+            <li><a href="./index">Home</a></li>
+            <li><a href="./info">About</a></li>
+            <li><a href="./contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="info-section" class="section">
+        <h2>About Haruka</h2>
+        <p>Hello! I'm Haruka. I love coding, creating bots, and exploring new technologies. In my free time, I enjoy
+            reading manga, playing video games, and hanging out with friends.</p>
+        <button onclick="showSection('additional-section')">Learn More</button>
+    </div>
+
+    <div id="additional-section" class="section" style="display: none;">
+        <h2>About</h2>
+        <p>I'm also passionate about anime and often attend conventions. I enjoy collaborating with other developers and
+            learning new programming languages. Let's connect and create something amazing together!</p>
+        <button onclick="showSection('info-section')">Back to Info</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Haruka. All rights reserved.</p>
+        </footer>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
