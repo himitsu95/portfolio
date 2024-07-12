@@ -17,4 +17,6 @@ Hi! I'm Haruka, a 17-year-old web developer who loves watching anime and drawing
 #### Contact:
 If you have any questions or would like to collaborate, please reach out to me at contact.himitsu95@gmail.com.
 
+discord id: himitsu__95
+
 Feel free to customize this description further to better match your style and preferences!
